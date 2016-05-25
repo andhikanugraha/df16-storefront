@@ -1,0 +1,26 @@
+@import url(bootstrap.css);
+.container {
+  margin-top: 40px; }
+
+img.tbimg {
+  max-width: 100%;
+  margin: 20px 0; }
+
+.price {
+  display: block;
+  float: left;
+  font-weight: bold;
+  padding: 7px 0;
+  line-height: 1.5; }
+
+p.order a {
+  float: right;
+  font-weight: bold; }
+
+address {
+  padding-top: 40px;
+  color: #aaa; }
+  address a {
+    color: #888; }
+
+/*# sourceMappingURL=style.css.map */

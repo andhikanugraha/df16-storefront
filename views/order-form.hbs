@@ -1,0 +1,20 @@
+<h1>Form Pesanan: Tahu Bulat {{ qty }}-pack</h1>
+
+<form action="/order" method="POST">
+  <fieldset class="form-group">
+    <label for="name">Nama penerima</label>
+    <input type="text" class="form-control" id="name" placeholder="John Doe" name="name" value="Andhika Nugraha">
+  </fieldset>
+  <fieldset class="form-group">
+    <label for="email">Email penerima</label>
+    <input type="email" class="form-control" id="email" placeholder="John Doe" name="email" value="devfestdemo@outlook.com">
+  </fieldset>
+  <fieldset class="form-group">
+    <label for="address">Alamat</label>
+    <textarea class="form-control" id="address" name="address">Ritz-Carlton Pacific Place</textarea>
+  </fieldset>
+  <p>
+    <input type="hidden" value="{{qty}}" name="qty">
+    <button class="btn btn-primary" type="submit">Pesan</button>
+  </p>
+</form>
